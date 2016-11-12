@@ -290,4 +290,7 @@ footer.second p {
 	.handMobile {
 		margin: 0;
 	}
+	.social i {
+		font-size: 270%;
+	}
 }
