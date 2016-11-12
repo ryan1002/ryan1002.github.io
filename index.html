@@ -3,6 +3,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Rocket Design - Mobile Web Design Services</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -15,10 +16,10 @@
 				<a href="#" id="menu-icon"></a>
 				<ul>
 					<li><a href="index.html" class="current">Home</a></li>
-					<li><a href="#html">Skills</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#first">Skills</a></li>
+					<li><a href="#second">Portfolio</a></li>
+					<li><a href="#third">About Me</a></li>
+					<li><a href="mailto:ryanmodeste2@gmail.com" "#fourth">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -32,9 +33,11 @@
 <!---End Banner-->
 <!-- About me -->
 <section id="smiley">
+	<a name="third"></a>
 	<h2>About Me</h2>
 	<p class="about-me">A year ago I decided to turn my interest into a reality so I took the plunge and recently left my day job to pursue coding. I became profoundly preoccupied with mastering the art of functional code with beautifully crafted web applications. I attended a full time 3 month bootcamp at General Assembly and learned how to code. General Assembly has turned my obsession into a reality and will continue to hone the skills I have lerned to become a world class web developer.</p>
 </section>
+	<a name="first"></a>
 	<section class="one-fourth" id="html">
 		<td><i class="fa fa-html5"></i></td>
 		<p class="skills">Html 5 90%</p>
@@ -71,11 +74,15 @@
 		<p class="skills">AngularJS 60%</p>
 	</section>
 <!---End Four Column Section-->
+<section>
+	<h1 class="portfolio">PORTFOLIO</h1>
+</section>
 	<section class="inner-wrapper-1">
 		<article id="tablet">
 			<img src="img/plumbers.png">
 		</article>
 		<aside id="tablet2">
+			<a name="second"></a>
 			<h2>PLUMBERS</h2>
 			<p>This was a solo project where I made a restful web application where users can sign in and out to gain access to a map that lists all cinemas in their local area. I used AngularJS Framework and made an AJAX request to an API to pull in the correct data.</p>
 		</aside>
@@ -114,5 +121,8 @@
 		<p>&copy; Ryan Modeste</p>
 	</footer>
 <!---End Second Footer-->
+
+<script src="./js/scroll.js"></script>
+
 </body>
 </html>

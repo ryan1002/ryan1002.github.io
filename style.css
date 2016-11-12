@@ -230,6 +230,16 @@ footer.second p {
 	padding: 5px 0 9px 0;
 	text-align: center;
 }
+.portfolio {
+	font-size: 350%;
+	text-align: center;
+	padding: 1%;
+	clear: both;
+	background-color: #A09C92;
+	color: #fff;
+	border: 5px solid grey;
+	width: 100%;
+}
 /*-----media!! ----*/
 @media screen and (max-width: 768px) {
 	h2 {
@@ -272,6 +282,10 @@ footer.second p {
 	}
 	.banner {
 		padding-top: 86px;
+	}
+	.portfolio {
+		width: 96.65%;
+		font-size: 200%;
 	}
 	.one-fourth {
 		float: left;
