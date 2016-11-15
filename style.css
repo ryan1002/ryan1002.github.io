@@ -263,14 +263,14 @@ footer.second p {
 	}
 	nav ul, nav:active ul {
 		display: none;
-		z-index: 1000;
-		position: absolute;
-		padding: 20px;
-		background: #4f5e67;
-		right: 20px;
-		top: 60px;
-		border: 1px solid grey;
-		width: 50%;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: #4f5e67;
+    right: 20px;
+    top: 35px;
+    border: 1px solid grey;
+    width: 56%;
 	}
 	nav:hover ul {
 		display: block;
@@ -305,6 +305,6 @@ footer.second p {
 		margin: 0;
 	}
 	.social i {
-		font-size: 270%;
+		font-size: 226%;
 	}
 }
