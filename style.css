@@ -75,6 +75,9 @@ a {
     color: #fff;
     text-decoration: none;
 }
+a:active {
+    color: #fff!important;
+}
 a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
 }
